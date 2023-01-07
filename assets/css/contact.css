@@ -1,0 +1,142 @@
+html {
+    background-color: #1f2125;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+head {
+    display: none;
+}
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    justify-content: space-between;
+    padding: 2rem;
+    color: #fff;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-icon {
+    align-items: center;
+    display: flex;
+    min-width: 100px;
+}
+
+.header-navigation {
+    align-items: center;
+    border-bottom: 2px solid transparent;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    font-size: 1.25rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.games-button {
+    color: #E9E4DB;
+    display: flex;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    flex-direction: column;
+    margin-left: 4px;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    transition: color .2s ease;
+    margin-right: 1rem;
+}
+
+.games-button:hover {
+    color: white;
+}
+
+.news-button {
+    color: #E9E4DB;
+    display: flex;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    flex-direction: column;
+    margin-left: 4px;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    transition: color .2s ease;
+    margin-right: 1rem;
+}
+
+.news-button:hover {
+    color: white;
+}
+
+.careers-button {
+    color: #E9E4DB;
+    display: flex;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    flex-direction: column;
+    margin-left: 4px;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    transition: color .2s ease;
+    margin-right: 1rem;
+}
+
+.careers-button:hover {
+    color: white;
+}
+
+.contact-button {
+    color: #E9E4DB;
+    display: flex;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    flex-direction: column;
+    margin-left: 4px;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    transition: color .2s ease;
+    margin-right: 1rem;
+}
+
+.contact-button:hover {
+    color: white;
+}
+
+.about-button {
+    color: #E9E4DB;
+    display: flex;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    flex-direction: column;
+    margin-left: 4px;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    transition: color .2s ease;
+    margin-right: 1rem;
+}
+
+.about-button:hover {
+    color: white;
+}

@@ -1,0 +1,36 @@
+User-agent: *
+User-agent: Googlebot
+User-agent: AdsBot-Google
+User-agent: Googlebot-Image
+
+Disallow: /assets/
+
+Disallow: /assets/css/
+Disallow: /assets/images/
+Disallow: /assets/scripts/
+Disallow: /assets/videos/
+Disallow: /assets/fonts/
+
+Disallow: /assets/css/about.css
+Disallow: /assets/css/careers.css
+Disallow: /assets/css/contact.css
+Disallow: /assets/css/games.css
+Disallow: /assets/css/homes.css
+Disallow: /assets/css/news.css
+
+Disallow: /assets/images/
+
+Disallow: /assets/scripts/about.js
+Disallow: /assets/scripts/careers.js
+Disallow: /assets/scripts/contact.js
+Disallow: /assets/scripts/games.js
+Disallow: /assets/scripts/home.js
+Disallow: /assets/scripts/news.js
+
+Disallow: /assets/videos/hero-video.mp4
+
+Allow: /about/
+Allow: /careers/
+Allow: /contact/
+Allow: /games/
+Allow: /news/
